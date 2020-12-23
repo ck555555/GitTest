@@ -1,0 +1,6 @@
+tests\Tests_2_pictures.class
+tests\Tests_1_search.class
+tests\Tests_3_news.class
+fixture\Fixture.class
+tests\Tests_4_universalLocator.class
+tests\Tests.class

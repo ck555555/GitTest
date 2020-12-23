@@ -1,0 +1,6 @@
+locators\TestLoсator.class
+actions\WaitWeb.class
+picthersYandex\PicturePage.class
+newsYandex\NewsPage.class
+actions\ClickWeb.class
+steps\MainPage.class

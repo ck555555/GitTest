@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="3" parallel="classes" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="tests.Tests_4_universalLocator">
+        <methods>
+          <include name="before"/>
+          <include name="close"/>
+          <include name="UniversalLocatorTest"/>
+        </methods>
+      </class> <!-- tests.Tests_4_universalLocator -->
+      <class name="tests.Tests_1_search">
+        <methods>
+          <include name="before"/>
+          <include name="close"/>
+          <include name="happyPassCalc"/>
+        </methods>
+      </class> <!-- tests.Tests_1_search -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

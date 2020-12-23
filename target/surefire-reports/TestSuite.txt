@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 60.196 s <<< FAILURE! - in TestSuite
+happyPassCalc(tests.Tests_1_search)  Time elapsed: 5.895 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //div[@class='calculator__screen']//span[text()='5 + 5']}
+Expected: exist
+Screenshot: file:/C:/Users/Yury/IdeaProjects/Yandex.ru/build/reports/tests/1608282901958.0.png
+Page source: file:/C:/Users/Yury/IdeaProjects/Yandex.ru/build/reports/tests/1608282901958.0.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='calculator__screen']//span[text()='5 + 5']"}
+	at tests.Tests_1_search.happyPassCalc(Tests_1_search.java:32)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='calculator__screen']//span[text()='5 + 5']"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-S0EOUVT', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Yury\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cc5538a8a5ac633d666c5c2efad7b88f
+*** Element info: {Using=xpath, value=//div[@class='calculator__screen']//span[text()='5 + 5']}
+	at tests.Tests_1_search.happyPassCalc(Tests_1_search.java:32)
+
+UniversalLocatorTest(tests.Tests_4_universalLocator)  Time elapsed: 0.622 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //span[text()='Диск']}
+Expected: exist
+Screenshot: file:/C:/Users/Yury/IdeaProjects/Yandex.ru/build/reports/tests/1608282925562.1.png
+Page source: file:/C:/Users/Yury/IdeaProjects/Yandex.ru/build/reports/tests/1608282925562.1.html
+Timeout: 10 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Диск']"}
+	at tests.Tests_4_universalLocator.UniversalLocatorTest(Tests_4_universalLocator.java:15)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Диск']"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-S0EOUVT', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Yury\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64113}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b4338cdc4b801c5f682aba27bbfb758e
+*** Element info: {Using=xpath, value=//span[text()='Диск']}
+	at tests.Tests_4_universalLocator.UniversalLocatorTest(Tests_4_universalLocator.java:15)
+

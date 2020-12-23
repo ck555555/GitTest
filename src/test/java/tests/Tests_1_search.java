@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 import static com.codeborne.selenide.Selenide.$;
 
 @Epic("Яндекс")//папка 1го уровня
-@Feature("Автоматизация сценариев")
+@Feature("Автоматизация сценариев 1")
 @Story("Тестирвание поиска")
 public class Tests_1_search extends Fixture {
     @Test(description = " Тест поиска Одноклассников")
